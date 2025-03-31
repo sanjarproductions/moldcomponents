@@ -1,0 +1,123 @@
+.search {
+    background: #fff;
+    padding: 30px 0px;
+}
+
+.search .flex {
+    display: flex;
+    align-items: center;
+
+}
+
+.search .main-logo {
+    width: 100%;
+    max-width: 180px;
+    margin-right: 30px;
+}
+
+.input-wrapper {
+    border: 2px solid #4361ee;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    /* padding: 5px 5px 5px 15px; */
+    padding-left: 15px;
+    height: 65px;
+    position: relative;
+}
+
+
+input {
+    border: none;
+    outline: none;
+    height: 100%;
+    border-radius: 10px;
+    /* background: red; */
+    flex: 1;
+    font-size: 18px;
+
+}
+
+.input-wrapper button {
+    border: none;
+    background: #4361ee;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0px 8px 8px 0px;
+    padding: 0px 35px;
+    height: 100%;
+}
+
+.input-wrapper button svg {
+    color: #fff;
+    font-size: 25px;
+}
+
+.links .container{
+    margin-top: 20px;
+    padding-left: 215px;
+}
+
+.links a {
+    text-decoration: none;
+    background: #f4f4f4;
+    font-size: 18px;
+    border: 1px solid #bebdbd;
+    color: #4361ee;
+    margin-right: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.search-results .search-product__image {
+    width: 70px;
+    height: 70px;
+}
+
+.search-results {
+    position: absolute;
+    top: calc(100% + 5px);
+    max-height: 300px;
+    /* height: 300px; */
+    overflow-y: auto;
+    background: #fff;
+    width: 100%;
+    z-index: 3;
+    left: 0;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #000;
+}
+
+.search-results .searched-item {
+    justify-content: space-between;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.search-results .searched-item p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.searched-item__title {
+    gap: 20px;
+    color: #000;
+}
+
+.notfound-img__wrapper {
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+}
+
+.not-fount__message {
+    max-width: 330px;
+    width: 100%;
+    margin: auto;
+}

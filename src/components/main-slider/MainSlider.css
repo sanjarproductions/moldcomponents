@@ -1,0 +1,13 @@
+.main-swiper{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.swiper-slide{
+    border-radius: 100px;
+}
+
+.swiper-slide img{
+   object-fit: contain;
+   border-radius: 15px;
+}

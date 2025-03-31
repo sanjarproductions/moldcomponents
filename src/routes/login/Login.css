@@ -1,0 +1,75 @@
+.admin .flex:first-child {
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh
+}
+
+.inputs {
+    max-width: 300px;
+    width: 100%;
+}
+
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.username-input {
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.password-wrapper {
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 100%;
+    background: #fff;
+}
+
+.password-wrapper input {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.password-wrapper svg {
+    color: blueviolet;
+}
+
+.submit-btn {
+    padding: 10px 15px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
+}
+
+.submit-btn:active {
+    transform: scale(0.99);
+}
+
+.loading-spin {
+    animation: spin 0.3s ease-in-out infinite;
+    color: #fff;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.Toastify__toast-body div:last-child{
+    /* flex-wrap: nowrap; */
+    /* white-space: nowrap; */
+}

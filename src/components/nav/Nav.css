@@ -1,0 +1,36 @@
+.container {
+    max-width: 1285px;
+    width: 100%;
+    margin: auto;
+}
+
+nav {
+    padding: 20px 0px;
+    /* background: #fff; */
+}
+
+nav .flex {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+nav a,
+svg {
+    color: #007aff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav .flags {
+    margin-right: 20px;
+}
+
+nav .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 10px;
+}

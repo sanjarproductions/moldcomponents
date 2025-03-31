@@ -1,0 +1,29 @@
+.admin-nav__wrapper {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.admin-orders__nav {
+    border: 1px solid #000;
+    margin-top: 20px;
+    padding: 0;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background: #01377D;
+    /* width: 100%; */
+}
+
+.admin-orders__nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-orders__nav ul li a{
+    /* color: #fff; */
+    background: #fff;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
