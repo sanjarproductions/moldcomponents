@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Admin.css"
-import SidebarAdmin from '../../components/sidebar-admin/sidebarAdmin'
+import SidebarAdmin from '../../components/sidebar-admin/SidebarAdmin'
 import { Outlet } from 'react-router-dom'
 
 const Admin = () => {
